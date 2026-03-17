@@ -38,6 +38,7 @@ Scripts for analyzing datasets, generating statistics, and visualizing data.
 ## 🛠️ Technologies Used
 
 * Python 🐍
+* numpy
 * Pandas (for data analysis)
 * Matplotlib (for visualization)
 * Standard Python libraries
@@ -110,4 +111,4 @@ This project is licensed under the MIT License.
 
 ## 👨‍💻 Author
 
-* GitHub: https://github.com/your-username
+* GitHub: https://github.com/AyoubGhoula
