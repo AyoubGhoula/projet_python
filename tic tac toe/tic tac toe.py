@@ -24,8 +24,8 @@ def next_turn(row,col):
                 o_win+=1
             else:
                 x_win+=1
-            x.config(text=("x="+str(x_win)))
-            o.config(text=("o="+str(o_win)))
+            x.config(text=("X="+str(x_win)))
+            o.config(text=("O="+str(o_win)))
         else:
             label.config(text=("no win"))
             
@@ -79,6 +79,5 @@ game_btn=[
 for i in range(3):
     for j in range(3):
         game_btn[i][j]=Button(frame,text="",font=('consolas',40),width=4,height=1,command=lambda row=i,col=j:next_turn(row,col))
-        game_btn[i][j].grid(row=i,column=j)
-   
+        game_btn[i][j].grid(row=i,column=j)  
 window.mainloop()
